@@ -63,3 +63,7 @@ const fetchWeather = (inputVal) => {
       alert("Cannot Fetch Weather details");
     });
 };
+
+window.onload = () =>{
+    fetchWeather("new delhi");
+}
