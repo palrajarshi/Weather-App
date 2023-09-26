@@ -22,7 +22,7 @@ searchbtn.addEventListener("click", () => {
 });
 
 const fetchWeather = (inputVal) => {
-  let url = `http://api.weatherapi.com/v1/current.json?key=f7545fb9b90c4ec197345653232409&q=${inputVal}&aqi=no`;
+  let url = `https://api.weatherapi.com/v1/current.json?key=f7545fb9b90c4ec197345653232409&q=${inputVal}&aqi=no`;
 
   let p1 = fetch(url);
   p1.then((response) => {
