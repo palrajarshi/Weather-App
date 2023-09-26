@@ -64,6 +64,6 @@ const fetchWeather = (inputVal) => {
     });
 };
 
-// window.onload = () =>{
-//     fetchWeather("new delhi");
-// }
+window.onload = () =>{
+    fetchWeather("new delhi");
+}
