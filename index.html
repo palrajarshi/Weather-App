@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- CSS ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="searchbox">
+        <input type="text" placeholder="Search City" />
+        <button id="searchbtn"><i class="uil uil-search"></i></button>
+      </div>
+      <div class="weatherinfo">
+        <div class="condition">
+          <i class="uil uil-brightness condition-icon"></i>
+        </div>
+        <div class="weather-celciusVal">26 °C</div>
+        <div class="cityBox">New York,  United States of America</div>
+      </div>
+      <div class="humidityandWind">
+        <div class="humidityBox padding1">Humidity: 48%</div>
+        <div class="windSpeedBox padding1">Wind Speed: 10.29Km/hr</div>
+      </div>
+      <div class="moreInfo">
+        <div class="lastUpdated">Last Updated: 2023-09-26 20:30</div>
+        <div class="longitude">Lat 28.6°</div>
+        <div class="latiitude">Long 77.2°</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
